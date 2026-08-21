@@ -1,0 +1,19 @@
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: darkcyan;
+    font-size: larger;
+}
+
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: aquamarine;
+    font-size: large;
+}
+
+button{
+    border-radius: 2px;
+    padding: 14px;
+    border: 2px black ;
+    color: #fff;
+    background-color: #000;
+}
