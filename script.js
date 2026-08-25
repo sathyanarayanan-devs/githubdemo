@@ -8,7 +8,6 @@ button.addEventListener("click", function(){
     alert("button clicked");
 })
 
-
 sub_btn.addEventListener("click", function() {
     let text = document.getElementById("textArea");
     text.textContent = key.value;
