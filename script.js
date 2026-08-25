@@ -1,16 +1,15 @@
 const button = document.getElementById("btn");
+const sub_btn = document.getElementById("submit");
 let h1 = document.getElementById("h1");
+let key = document.getElementById("key");
 
 button.addEventListener("click", function(){
     h1.style.color = "blue";
     alert("button clicked");
-})
+});
 
-let text = document.getElementById("Text");
-const btn = document.getElementById("sBtn");
-let key = document.getElementById("key");
-
-btn.addEventListener("click", function() {
+sub_btn.addEventListener("click", function() {
+    let text = document.getElementById("textArea");
     text.textContent = key.value;
     key.value = "";
 });
