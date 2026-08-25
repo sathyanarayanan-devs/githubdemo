@@ -4,7 +4,7 @@ h1{
     font-size: larger;
 }
 
-p{
+#text{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: aquamarine;
     font-size: large;
@@ -16,4 +16,13 @@ button{
     border: 2px black ;
     color: #fff;
     background-color: #000;
+}
+
+.textarea{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    background-color: color-mix(in srgb, red 95%, violet 84%);
+
 }
